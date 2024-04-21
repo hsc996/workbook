@@ -1,9 +1,9 @@
 # T1A1 Workbook
 
-Q1 **Identify** and **explain** common and important components and concepts of web development markup languages
+## Q1. Identify and explain common and important components and concepts of web development markup languages
 
 
-**_MARKUP LANGUAGES_**
+_MARKUP LANGUAGES_
 
 
 
@@ -18,7 +18,7 @@ Here are some examples of some of the most commonly using markup languages withi
 
 
 
-## HTML5 (Hypertext Markup Language)
+> HTML5 (Hypertext Markup Language)
 
 
 HTML5, is the most widely used markup language and the backbone of web pages, consists of tags, attributes, elements, and a hierarchical document structure. Tags, enclosed in angle brackets, mark the beginning and end of elements. Attributes provide additional information within tags. Elements organize content and include headings denoting different importance levels. Hyperlinks, lists, and images are key components for navigation and visual presentation. Mastering these basics is crucial for creating well-structured web pages.
@@ -26,13 +26,13 @@ HTML5, is the most widely used markup language and the backbone of web pages, co
 
 
 
-## XML (Extendable Markup Language)
+> XML (Extendable Markup Language)
 
 
 XML, a data storage and transport language, comprises tags, attributes, elements, and hierarchical document structures. Tags define elements, attributes provide extra information, and elements can be nested to form hierarchies. XML documents can be validated against schemas, use namespaces to avoid conflicts, and must adhere to well-formedness rules.  The annotation and tagging methods mirror that of HTML, however, XML tags are _not_ predefined in the same manner as HTML tags: in this way, it's more malleable as it allows the user to create their own tags to describe their data (Inouye, 2022).
 
 
-## SGML (Standard Generalized Markup Language)
+> SGML (Standard Generalized Markup Language)
 
 
 SGML, the Standard Generalized Markup Language, emerged as an international standard for metalanguages, originating from developers at IBM with the goal of creating large, intricate documents that could be readily understood and broadly disseminated (Inouye, 2022). At its core, SGML comprises notations designed to articulate the purpose of a text segment and how it should be presented. Crucially, SGML is instrumental in crafting Document Type Definitions (DTDs), which delineate the necessary elements for a document, such as the obligatory presence of a < title > tag.
@@ -40,7 +40,7 @@ SGML, the Standard Generalized Markup Language, emerged as an international stan
 
 
 
-## SVG (Scalable Vector Graphics)
+> SVG (Scalable Vector Graphics)
 
 
 SVG, or Scalable Vector Graphics, serves as an XML-based markup language aimed at delineating two-dimensional vector graphics. As a text-centric open Web standard, SVG provides a framework for articulating images that can be rendered cleanly at varying sizes, specifically engineered to seamlessly integrate with other standard web markups like CSS and Javascript (Ferraiolo 2000). One of its primary strengths lies in its ability to adapt images to different dimensions without compromising their quality, ensuring a consistent visual experience across various display sizes. Moreover, SVG facilitates effortless localization by enabling straightforward updates to the embedded text within the graphics, further enhancing its versatility and utility in web development contexts.
@@ -49,19 +49,19 @@ SVG, or Scalable Vector Graphics, serves as an XML-based markup language aimed a
 
 
 
-Q2. **Define** the features of the following technologies that are essential in terms of the development of the internet:
+## Q2. Define the features of the following technologies that are essential in terms of the development of the internet:
 > packets
 > IP addresses (IPv4 and IPv6)
 > routers and routing
 > domains and DNS
 
 
-**Explain** how each technology has contributed to the development of the internet.
+## Explain how each technology has contributed to the development of the internet.
 
 
 
 
-## Packets
+> Packets
 
 
 'Packets' or 'Network Packets' are single units of data communicated over a TCP/IP network. Devices utilising a TCP/IP network divide data into smaller pieces in order to accommodate various bandwidths. This will provide multiple potential routes for a destination and will allow for retransmission of pieces of data that get lost or interrupted. Packets were evolved due to the need for the internet to become wireless (Yasar et al., 2022).
@@ -69,7 +69,7 @@ Q2. **Define** the features of the following technologies that are essential in 
 
 
 
-## IP addresses
+> IP addresses
 
 
 An Internet Protocol Address (or IP address) is a numeric label assigned to every device connected to the internet. They allow for the transfer of data between two connected devices, thus allowing different devices to be in communication with one another. Although many IP addresses are public (external), meaning they can be accessed via the internet from any computer in the world, they can also be private (internal), meaning they can only be reached by other devices on the same network. Furthermore, IP addresses can be either static or dynamic: Dynamic IP addresses have the ability to be changed, whereas static addresses will remain the same as long as the provider or server remain the same.
@@ -80,18 +80,18 @@ An Internet Protocol Address (or IP address) is a numeric label assigned to ever
 There are 2 versions of IP address:
 
 
-> _IPv4_
+>> _IPv4_
    IPv4 was launched in 1983 and was the very first version to be utilised. IPv4 uses a 32-bit address, providing almost 4.3 billion unique addresses. These addresses are composed solely of numbers.
 
 
-> _IPv6_
+>> _IPv6_
    IPv6 is a newer version of IP that uses a 128-bit address format, and includes both numbers and letters within the address. It was initially developed by the Internet Engineering Task Force (IETF) in order to deal with the problem of IPv4 exhaustion and address depletion that was occurring. As well as providing increased address space, it also introduced improved header format, extension of protocol and additional functionalities.
 
 
 
 
 
-## Routers and Routing
+> Routers and Routing
 
 
 Routers are devices that mediate transmission routes of data packets over various communication networks. It works by directing incoming and outgoing internet traffic between connected devices and networks (Feamster, 2004). Similarly, the term "routing" refers to the process of selecting a path across one or several networks: the routers themselves are the hardware used to facilitate this process.
@@ -100,7 +100,7 @@ Routers are devices that mediate transmission routes of data packets over variou
 
 
 
-## Domains and DNS
+> Domains and DNS
 
 
 The Domain Name System (DNS) translates "human-readable" domain names into "machine-readable" IP addresses: This means that every website can be allocated both an IP address and domain name, both of which can direct the user to the same web page (Mockapetris et al., 1988). This means that instead of having to remember a long, complex string of numbers to access a site, one can simply use a domain name like example.com to load the same resource: this will be translated by a DNS server into the corresponding IP address.
@@ -110,13 +110,13 @@ The Domain Name System (DNS) translates "human-readable" domain names into "mach
 
 
 
-Q3. **Define** the features of the following technologies that are essential in terms of the development of the internet:
+## Q3. Define the features of the following technologies that are essential in terms of the development of the internet:
 > TCP
 > HTTP and HTTPS
 > web browsers (requests, rendering and developer tools)
 
 
-**Explain** how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
+## Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
 
 
 > TCP
@@ -167,7 +167,7 @@ Some other browser features that have enhanced client-server communication are c
 
 
 
-Q4. **Describe** the features of interpreters and compilers and how they are different.
+## Q4. Describe the features of interpreters and compilers and how they are different.
 
 
 
@@ -175,14 +175,14 @@ Q4. **Describe** the features of interpreters and compilers and how they are dif
 When communicating with one another in human languages, two individuals attempting to communicate in different languages require an interpreter in order to make sense of the conversation. Similarly, programming languages are human-readable languages which require a translator in order to properly communicate with a computer. Both interpreters and compilers are features designed to convert source code into object code (Agarwal, 2009).
 
 
-**Compilers**
+> Compilers
 
 Compilers translate high-level language into low-level machine or assembly languages so that the computer can understand the instructions. Compilers work by looking at the source code in its entirety (Agarwal, 2009). Despite this process, it operates quicker than an interpreter and it is advantageous in its in-built debugging tools; thus, obtaining the ability to correct syntax and semantic errors easily. From a client perspective, it's a convenient option in that it doesn't require third party installation in order to be launched (ref). Despite this potential advantage, this could also lead to system compatibility issues. Furthermore, the way in which it goes through the entire program results in a longer run-time and occupies more memory in comparison to interpreters (Agarwal, 2009).
 
 
 
 
-**Interpreters**
+> Interpreters
 
 Conversely, interpreters work by translating and executing each line of source code one at a time, consecutively. This fact means that overall debugging is easier, as it can identify errors immediately (BasuMallick, 2023). Interpreters run spontaneously, are more flexible and avoid occupying additional memory space (BasuMallick, 2023). However, this feature also has its drawbacks; for example, should an interruption occur during the process, the mechanism will cause the interpreter to reset and start again from the beginning (ref). Furthermore, an individual seeking to access the source code will require installation of an interpreter in order to retrieve and execute the code (BasuMallick, 2023). Lastly, it's not as secure.
 
@@ -191,9 +191,7 @@ Conversely, interpreters work by translating and executing each line of source c
 
 
 
-
-
-Q5. **Identify** TWO commonly used programming languages and **explain** the benefits and drawbacks of each.
+## Q5. Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
 
 
 
@@ -202,9 +200,7 @@ _1. Python_
 
 
 
-**Advantages**
-
-
+> Advantages
 
 
 1. Beginner Friendly
@@ -221,7 +217,7 @@ _1. Python_
 
 
 
-**Disadvantages**
+> Disadvantages
 
 
 1. Slower than compiled languages
@@ -242,14 +238,11 @@ _1. Python_
 
 
 
-
-
-
 _2. Java_
 
 
 
-**Advantages**
+> Advantages
 
 
 1. Beginner friendly
@@ -270,7 +263,7 @@ _2. Java_
 
 
 
-**Disadvantages**
+> Disadvantages
 
 
 
@@ -294,8 +287,7 @@ _2. Java_
 
 
 
-
-Q6. A hypothetical client has sent you an email (shown in the **Q6 Email** section), asking for you to build them a website. Write an appropriate, professional email response that shows your understanding of the client’s needs for the website, as well as an understanding of appropriate technologies or tools needed to build the website yourself.
+## Q6. A hypothetical client has sent you an email (shown in the Q6 Email section), asking for you to build them a website. Write an appropriate, professional email response that shows your understanding of the client’s needs for the website, as well as an understanding of appropriate technologies or tools needed to build the website yourself.
 
 
 
@@ -331,8 +323,6 @@ _Super Awesome Museum_
 
 
 Dear Alex,
-
-
 
 
 Thank you for getting in contact regarding this project. I appreciate the opportunity to discuss the museum's online presence and how we can assist you in achieving your goals.
@@ -398,8 +388,8 @@ Any City, NSW 3232
 
 
 
-Q7. Think back to a scenario or situation in your own software development projects or work.
-**Explain** how you would do things differently if you had a chance to go through that scenario again, using an appropriate reflective cycle or reflection technique.
+## Q7. Think back to a scenario or situation in your own software development projects or work.
+## Explain how you would do things differently if you had a chance to go through that scenario again, using an appropriate reflective cycle or reflection technique.
 
 
 
@@ -419,10 +409,8 @@ Ultimately both of these scenarios were important opportunities for reflection. 
 
 
 
-
-
-Q8. A large part of career growth as an information technology professional happens through networking and workshops, often found at online or in-person events or workshops.
-Create an action plan that identifies several relevant networking opportunities for you to participate in or attend, and add some information about what you expect to gain or grow through each item in the action plan.
+## Q8. A large part of career growth as an information technology professional happens through networking and workshops, often found at online or in-person events or workshops.
+## Create an action plan that identifies several relevant networking opportunities for you to participate in or attend, and add some information about what you expect to gain or grow through each item in the action plan.
 
 
 
@@ -443,7 +431,7 @@ In the meantime, I intend to continue my own professional development in a manne
 
 
 
-Q9. **Explain** the uses of language-learning model technologies (such as ChatGPT) on written and technical works, such as reports and software projects.
+## Q9. Explain the uses of language-learning model technologies (such as ChatGPT) on written and technical works, such as reports and software projects.
 
 
 
@@ -471,7 +459,7 @@ There are several ways in which language-learning models (LLMs) can be used to a
 
 
 
-Q10. **Explain** the legal and ethical impacts of the usage of language-learning model technologies (such as ChatGPT) in written and technical works, such as reports and software projects.
+## Q10. Explain the legal and ethical impacts of the usage of language-learning model technologies (such as ChatGPT) in written and technical works, such as reports and software projects.
 
 
 
@@ -491,10 +479,7 @@ This leads into the issue of the ethical risk the use of LLMs pose to the overal
 
 
 
-
-
-
-Q11. **Explain** multiple skills from each of the categories below, and how they’re useful to a software development workplace.
+## Q11. Explain multiple skills from each of the categories below, and how they’re useful to a software development workplace.
 
 
 
@@ -556,7 +541,7 @@ Q11. **Explain** multiple skills from each of the categories below, and how they
 
 
 
-Q12. **Explain** multiple roles or job positions that would be found in a medium-sized software development company.
+## Q12. Explain multiple roles or job positions that would be found in a medium-sized software development company.
 
 
 1. Software Engineer/Developer
@@ -590,8 +575,7 @@ Q12. **Explain** multiple roles or job positions that would be found in a medium
 
 
 
-
-**REFERENCES**
+## REFERENCES
 
 
 Agarwal, B.B., Gupta, M. and Tayal, S.P., 2009. Software engineering and testing. Jones & Bartlett Publishers.
