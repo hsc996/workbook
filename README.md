@@ -18,7 +18,7 @@ Here are some examples of some of the most commonly using markup languages withi
 
 
 
-> HTML5 (Hypertext Markup Language)
+**HTML5 (Hypertext Markup Language)**
 
 
 HTML5, is the most widely used markup language and the backbone of web pages, consists of tags, attributes, elements, and a hierarchical document structure. Tags, enclosed in angle brackets, mark the beginning and end of elements. Attributes provide additional information within tags. Elements organize content and include headings denoting different importance levels. Hyperlinks, lists, and images are key components for navigation and visual presentation. Mastering these basics is crucial for creating well-structured web pages.
@@ -26,13 +26,13 @@ HTML5, is the most widely used markup language and the backbone of web pages, co
 
 
 
-> XML (Extendable Markup Language)
+**XML (Extendable Markup Language)**
 
 
 XML, a data storage and transport language, comprises tags, attributes, elements, and hierarchical document structures. Tags define elements, attributes provide extra information, and elements can be nested to form hierarchies. XML documents can be validated against schemas, use namespaces to avoid conflicts, and must adhere to well-formedness rules.  The annotation and tagging methods mirror that of HTML, however, XML tags are _not_ predefined in the same manner as HTML tags: in this way, it's more malleable as it allows the user to create their own tags to describe their data (Inouye, 2022).
 
 
-> SGML (Standard Generalized Markup Language)
+**SGML (Standard Generalized Markup Language)**
 
 
 SGML, the Standard Generalized Markup Language, emerged as an international standard for metalanguages, originating from developers at IBM with the goal of creating large, intricate documents that could be readily understood and broadly disseminated (Inouye, 2022). At its core, SGML comprises notations designed to articulate the purpose of a text segment and how it should be presented. Crucially, SGML is instrumental in crafting Document Type Definitions (DTDs), which delineate the necessary elements for a document, such as the obligatory presence of a < title > tag.
@@ -40,7 +40,7 @@ SGML, the Standard Generalized Markup Language, emerged as an international stan
 
 
 
-> SVG (Scalable Vector Graphics)
+**SVG (Scalable Vector Graphics)**
 
 
 SVG, or Scalable Vector Graphics, serves as an XML-based markup language aimed at delineating two-dimensional vector graphics. As a text-centric open Web standard, SVG provides a framework for articulating images that can be rendered cleanly at varying sizes, specifically engineered to seamlessly integrate with other standard web markups like CSS and Javascript (Ferraiolo 2000). One of its primary strengths lies in its ability to adapt images to different dimensions without compromising their quality, ensuring a consistent visual experience across various display sizes. Moreover, SVG facilitates effortless localization by enabling straightforward updates to the embedded text within the graphics, further enhancing its versatility and utility in web development contexts.
@@ -61,7 +61,7 @@ SVG, or Scalable Vector Graphics, serves as an XML-based markup language aimed a
 
 
 
-> Packets
+**Packets**
 
 
 'Packets' or 'Network Packets' are single units of data communicated over a TCP/IP network. Devices utilising a TCP/IP network divide data into smaller pieces in order to accommodate various bandwidths. This will provide multiple potential routes for a destination and will allow for retransmission of pieces of data that get lost or interrupted. Packets were evolved due to the need for the internet to become wireless (Yasar et al., 2022).
@@ -69,7 +69,7 @@ SVG, or Scalable Vector Graphics, serves as an XML-based markup language aimed a
 
 
 
-> IP addresses
+**IP addresses**
 
 
 An Internet Protocol Address (or IP address) is a numeric label assigned to every device connected to the internet. They allow for the transfer of data between two connected devices, thus allowing different devices to be in communication with one another. Although many IP addresses are public (external), meaning they can be accessed via the internet from any computer in the world, they can also be private (internal), meaning they can only be reached by other devices on the same network. Furthermore, IP addresses can be either static or dynamic: Dynamic IP addresses have the ability to be changed, whereas static addresses will remain the same as long as the provider or server remain the same.
@@ -91,7 +91,7 @@ There are 2 versions of IP address:
 
 
 
-> Routers and Routing
+**Routers and Routing**
 
 
 Routers are devices that mediate transmission routes of data packets over various communication networks. It works by directing incoming and outgoing internet traffic between connected devices and networks (Feamster, 2004). Similarly, the term "routing" refers to the process of selecting a path across one or several networks: the routers themselves are the hardware used to facilitate this process.
@@ -100,7 +100,7 @@ Routers are devices that mediate transmission routes of data packets over variou
 
 
 
-> Domains and DNS
+**Domains and DNS**
 
 
 The Domain Name System (DNS) translates "human-readable" domain names into "machine-readable" IP addresses: This means that every website can be allocated both an IP address and domain name, both of which can direct the user to the same web page (Mockapetris et al., 1988). This means that instead of having to remember a long, complex string of numbers to access a site, one can simply use a domain name like example.com to load the same resource: this will be translated by a DNS server into the corresponding IP address.
@@ -119,7 +119,7 @@ The Domain Name System (DNS) translates "human-readable" domain names into "mach
 ## Explain how each technology has contributed to the development of client and server communication over the internet (50 - 150 words for each technology)
 
 
-> TCP
+**TCP**
 
 
 TCP stands for Transmission Control Protocol and is one of the main protocols that make up the Internet protocol suite. The TCP/IP stack implements a series of protocol layers for networks, which in turn allow communication between any connected device. TCP is a communication-based protocol layer between the "Application" and "Network" layers of the stack, and aids in the exchanging of messages between devices over a common network. Before the introduction of TCP, UDP (User Datagram Protocol) was the alternative protocol option for sending data across a network: This is a connectionless protocol, devoid of error-checking or error recovery services (Gorlaski 2008). While UDP can often execute faster data transfer, it's at the cost of establishing a less firm connection and  forgoing congestion control and error support (Gorlaski 2008). In contrast, TCP is considered reliable in guaranteeing the delivery of data to the correct destination, as well as providing the advantage of flow control mechanism and retransmission of lost data packets (Gorlaski 2008). With the ever-increasing demand for widespread multimedia use, the connection-oriented and flexible nature of TCP has greatly contributed to providing more efficient, robust and safer client-server communication.
@@ -127,7 +127,7 @@ TCP stands for Transmission Control Protocol and is one of the main protocols th
 
 
 
-> HTTP and HTTPs
+**HTTP and HTTPs**
 
 
 Similarly to TCP, the introduction of HTTP and HTTPs has revolutionised client-server communication by facilitating efficient and secure exchange of information over the internet. During the establishment of the WorldWideWeb project in 1990, Sir Tim Berners-Lee generated the first version of the Hypertext Transfer Protocol (Cox et al., 2012). Since then, HTTP has become a standardised protocol for client-server communication: its ability to support various types of content and interactive multimedia makes it a flexible and versatile option. Furthermore, its stateless communication makes it highly scalable, allowing servers to easily handle large numbers of concurrent requests (Cox et al., 2012). While HTTP is encoded, HTTPS provides a secure, encrypted version of this protocol; requiring authentication (SSL/TLS protocols) to ensure confidentiality and integrity of data exchanged over a secure network (Barlen & Blankertz, 2005). This encryption protects sensitive information, prevents data manipulation and provides a barrier to malicious hacking.
@@ -135,7 +135,7 @@ Similarly to TCP, the introduction of HTTP and HTTPs has revolutionised client-s
 
 
 
-> Web browsers
+**Web browsers**
 
 
 Web browsers are software applications which retrieve information from remote servers and render the document to display on screen (Grosskurth 2006). Now the most widely used software application, web browsers, their mechanisms and their in-built features have revolutionised client-server communication over the internet.
@@ -175,14 +175,14 @@ Some other browser features that have enhanced client-server communication are c
 When communicating with one another in human languages, two individuals attempting to communicate in different languages require an interpreter in order to make sense of the conversation. Similarly, programming languages are human-readable languages which require a translator in order to properly communicate with a computer. Both interpreters and compilers are features designed to convert source code into object code (Agarwal, 2009).
 
 
-> Compilers
+**Compilers**
 
 Compilers translate high-level language into low-level machine or assembly languages so that the computer can understand the instructions. Compilers work by looking at the source code in its entirety (Agarwal, 2009). Despite this process, it operates quicker than an interpreter and it is advantageous in its in-built debugging tools; thus, obtaining the ability to correct syntax and semantic errors easily. From a client perspective, it's a convenient option in that it doesn't require third party installation in order to be launched (ref). Despite this potential advantage, this could also lead to system compatibility issues. Furthermore, the way in which it goes through the entire program results in a longer run-time and occupies more memory in comparison to interpreters (Agarwal, 2009).
 
 
 
 
-> Interpreters
+**Interpreters**
 
 Conversely, interpreters work by translating and executing each line of source code one at a time, consecutively. This fact means that overall debugging is easier, as it can identify errors immediately (BasuMallick, 2023). Interpreters run spontaneously, are more flexible and avoid occupying additional memory space (BasuMallick, 2023). However, this feature also has its drawbacks; for example, should an interruption occur during the process, the mechanism will cause the interpreter to reset and start again from the beginning (ref). Furthermore, an individual seeking to access the source code will require installation of an interpreter in order to retrieve and execute the code (BasuMallick, 2023). Lastly, it's not as secure.
 
@@ -200,7 +200,7 @@ _1. Python_
 
 
 
-> Advantages
+**Advantages**
 
 
 1. Beginner Friendly
@@ -217,7 +217,7 @@ _1. Python_
 
 
 
-> Disadvantages
+**Disadvantages**
 
 
 1. Slower than compiled languages
@@ -242,7 +242,7 @@ _2. Java_
 
 
 
-> Advantages
+**Advantages**
 
 
 1. Beginner friendly
@@ -263,7 +263,7 @@ _2. Java_
 
 
 
-> Disadvantages
+**Disadvantages**
 
 
 
@@ -439,21 +439,21 @@ There are several ways in which language-learning models (LLMs) can be used to a
 
 
 1. Condensing reports
-   > LLMs such as ChatGPT have the ability to condense lengthy reports into short, concise summaries. This can be a useful time-saving method, enhancing overall productivity and efficiency.
+   LLMs such as ChatGPT have the ability to condense lengthy reports into short, concise summaries. This can be a useful time-saving method, enhancing overall productivity and efficiency.
 
 
 2. Language translation
-   > LLMs can be used for translating written reports into different languages, which could be extremely useful in the context of communicating with international colleagues.
+   LLMs can be used for translating written reports into different languages, which could be extremely useful in the context of communicating with international colleagues.
 
 
 3. Technical writing assistance
-   > LLMs can be used as an editing tool to improve style, grammar and format of written and technical reports. Despite this being useful in theory, the limitations of these models should be taken into consideration; these are outlined in the next question.
+   LLMs can be used as an editing tool to improve style, grammar and format of written and technical reports. Despite this being useful in theory, the limitations of these models should be taken into consideration; these are outlined in the next question.
 
 4. Contextual Assistance
-    > LLMs are able to offer contextual assistance and guidance within software development environments, providing suggestions, code examples, or documentation references based on the current context of the user's work.
+    LLMs are able to offer contextual assistance and guidance within software development environments, providing suggestions, code examples, or documentation references based on the current context of the user's work.
 
 5. Debugging code
-    > LLMs can aid in code debugging by spotting errors, explaining code functionality, proposing refactoring ideas, assisting in documentation creation, and giving troubleshooting advice. Nonetheless, they should complement traditional debugging tools rather than replace them, as developers need to combine various methods for effective debugging.
+    LLMs can aid in code debugging by spotting errors, explaining code functionality, proposing refactoring ideas, assisting in documentation creation, and giving troubleshooting advice. Nonetheless, they should complement traditional debugging tools rather than replace them, as developers need to combine various methods for effective debugging.
 
 
 
@@ -484,7 +484,7 @@ This leads into the issue of the ethical risk the use of LLMs pose to the overal
 
 
 
-> Soft skills
+Soft skills
 
 
    1. Communication/Team Work
@@ -515,7 +515,7 @@ This leads into the issue of the ethical risk the use of LLMs pose to the overal
 
 
 
-> Hard skills
+Hard skills
 
 
    1. Programming languages
@@ -547,7 +547,7 @@ This leads into the issue of the ethical risk the use of LLMs pose to the overal
 1. Software Engineer/Developer
 
 
-   > Software Engineers or developers are responsible for developing, testing and maintaining software applications/systems according to the project requirements. They apply their knowledge of engineering principles, programming languages and systems architecture to build software solutions. It is not only their job to write and test code, but also to optimise software for speed and scalability. Furthermore, this role involves dynamic collaboration with other engineers, clients, security specialists and stakeholders in order to produce end user satisfaction.
+   Software Engineers or developers are responsible for developing, testing and maintaining software applications/systems according to the project requirements. They apply their knowledge of engineering principles, programming languages and systems architecture to build software solutions. It is not only their job to write and test code, but also to optimise software for speed and scalability. Furthermore, this role involves dynamic collaboration with other engineers, clients, security specialists and stakeholders in order to produce end user satisfaction.
 
 
 
@@ -555,13 +555,13 @@ This leads into the issue of the ethical risk the use of LLMs pose to the overal
 2. UX/UI Designer
 
 
-   > These roles fall under the category of web design. UX Design involves the process of creating products and services which provide meaningful experience for the users; such as branding, usability, function, and design. UI Design refers to the interfaces with which the users engage og web pages such as interactive elements, animation and transitions by incorporation of buttons, images, widgets and visual effects. Often web designers have experience in both types of design.
+   These roles fall under the category of web design. UX Design involves the process of creating products and services which provide meaningful experience for the users; such as branding, usability, function, and design. UI Design refers to the interfaces with which the users engage og web pages such as interactive elements, animation and transitions by incorporation of buttons, images, widgets and visual effects. Often web designers have experience in both types of design.
 
 
 3. Product Manager
 
 
-   > The Product Manager oversees and manages the vision, strategy and roadmap for projects. This involves guiding the all cross-functional teams, prioritising requirements, revising strategy and responsibility for the final product launch. It is their role to essentially coordinate all moving parts of a project.
+   The Product Manager oversees and manages the vision, strategy and roadmap for projects. This involves guiding the all cross-functional teams, prioritising requirements, revising strategy and responsibility for the final product launch. It is their role to essentially coordinate all moving parts of a project.
 
 
 
@@ -569,7 +569,7 @@ This leads into the issue of the ethical risk the use of LLMs pose to the overal
 4. Data Scientist/Analyst
 
 
-   > Data Scientists collate and analyse all relevant data to derive insights and inform future decision making. They generate algorithms and perform statistical analysis of data in order to identify trends, patterns and opportunities for optimization or improvement.
+   Data Scientists collate and analyse all relevant data to derive insights and inform future decision making. They generate algorithms and perform statistical analysis of data in order to identify trends, patterns and opportunities for optimization or improvement.
 
 
 
