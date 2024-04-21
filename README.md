@@ -18,7 +18,7 @@ Here are some examples of some of the most commonly using markup languages withi
 
 
 
-> _HTML5 (Hypertext Markup Language)_
+## HTML5 (Hypertext Markup Language)
 
 
 HTML5, is the most widely used markup language and the backbone of web pages, consists of tags, attributes, elements, and a hierarchical document structure. Tags, enclosed in angle brackets, mark the beginning and end of elements. Attributes provide additional information within tags. Elements organize content and include headings denoting different importance levels. Hyperlinks, lists, and images are key components for navigation and visual presentation. Mastering these basics is crucial for creating well-structured web pages.
@@ -26,13 +26,13 @@ HTML5, is the most widely used markup language and the backbone of web pages, co
 
 
 
-> _XML (Extendable Makrup Language)_
+## XML (Extendable Markup Language)
 
 
 XML, a data storage and transport language, comprises tags, attributes, elements, and hierarchical document structures. Tags define elements, attributes provide extra information, and elements can be nested to form hierarchies. XML documents can be validated against schemas, use namespaces to avoid conflicts, and must adhere to well-formedness rules.  The annotation and tagging methods mirror that of HTML, however, XML tags are _not_ predefined in the same manner as HTML tags: in this way, it's more malleable as it allows the user to create their own tags to describe their data (Inouye, 2022).
 
 
-> _SGML (Standard Generalized Markup Language)_
+## SGML (Standard Generalized Markup Language)
 
 
 SGML, the Standard Generalized Markup Language, emerged as an international standard for metalanguages, originating from developers at IBM with the goal of creating large, intricate documents that could be readily understood and broadly disseminated (Inouye, 2022). At its core, SGML comprises notations designed to articulate the purpose of a text segment and how it should be presented. Crucially, SGML is instrumental in crafting Document Type Definitions (DTDs), which delineate the necessary elements for a document, such as the obligatory presence of a < title > tag.
@@ -40,7 +40,7 @@ SGML, the Standard Generalized Markup Language, emerged as an international stan
 
 
 
-> _SVG (Scalable Vector Graphics)_
+## SVG (Scalable Vector Graphics)
 
 
 SVG, or Scalable Vector Graphics, serves as an XML-based markup language aimed at delineating two-dimensional vector graphics. As a text-centric open Web standard, SVG provides a framework for articulating images that can be rendered cleanly at varying sizes, specifically engineered to seamlessly integrate with other standard web markups like CSS and Javascript (Ferraiolo 2000). One of its primary strengths lies in its ability to adapt images to different dimensions without compromising their quality, ensuring a consistent visual experience across various display sizes. Moreover, SVG facilitates effortless localization by enabling straightforward updates to the embedded text within the graphics, further enhancing its versatility and utility in web development contexts.
